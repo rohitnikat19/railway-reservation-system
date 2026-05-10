@@ -1,3 +1,9 @@
+<?php
+echo "RAILWAY PHP WORKING";
+?>
+
+
+/*
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -529,3 +535,6 @@
 
 </body>
 </html>
+
+*/
+
