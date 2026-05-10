@@ -1,9 +1,3 @@
-<?php
-echo "RAILWAY PHP WORKING";
-?>
-
-
-/*
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -536,5 +530,5 @@ echo "RAILWAY PHP WORKING";
 </body>
 </html>
 
-*/
+
 
