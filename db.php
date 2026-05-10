@@ -1,16 +1,15 @@
 <?php
 
-$host = "localhost";
+$host = "trolley.proxy.rlwy.net";
+$port = "46098";
 $username = "root";
-$password = "";
-$database = "railway_reservation";
+$password = "PIZLlVufDMBYRVyttzOjPSYVsoDjuYfq";
+$database = "railway";
 
-$conn = mysqli_connect($host, $username, $password, $database);
+$conn = mysqli_connect($host, $username, $password, $database, $port);
 
 if (!$conn) {
-    die("Database Connection Failed: " . mysqli_connect_error());
+    die("Connection Failed: " . mysqli_connect_error());
 }
-
-// echo "Connected Successfully";
 
 ?>
