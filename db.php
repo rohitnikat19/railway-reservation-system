@@ -1,10 +1,10 @@
 <?php
 
-$host = "trolley.proxy.rlwy.net";
-$port = "46098";
-$username = "root";
-$password = "PIZLlVufDMBYRVyttzOjPSYVsoDjuYfq";
-$database = "railway";
+$host = getenv("trolley.proxy.rlwy.net");
+$port = getenv("46098");
+$username = getenv("root");
+$password = getenv("PIZLlVufDMBYRVyttzOjPSYVsoDjuYfq");
+$database = getenv("railway");
 
 $conn = mysqli_connect($host, $username, $password, $database, $port);
 
