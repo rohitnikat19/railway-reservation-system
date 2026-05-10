@@ -1,15 +1,14 @@
 <?php
 
-$host = getenv("trolley.proxy.rlwy.net");
-$port = getenv("46098");
-$username = getenv("root");
-$password = getenv("PIZLlVufDMBYRVyttzOjPSYVsoDjuYfq");
-$database = getenv("railway");
-
-$conn = mysqli_connect($host, $username, $password, $database, $port);
+$conn = mysqli_connect(
+    "sql200.infinityfree.com",
+    "if0_41878061",
+    "XOXN2ee1WvxPc5h",
+    "if0_41878061_db_railway"
+);
 
 if (!$conn) {
-    die("Connection Failed: " . mysqli_connect_error());
+    die("Connection failed: " . mysqli_connect_error());
 }
 
 ?>
